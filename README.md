@@ -21,6 +21,7 @@ Dynamic Display:
 
 Upon user input, the prototype dynamically displays the corresponding collection based on the selected category.
 For instance, if the user requests documents (input 2), the application responds by showcasing the document collection.
+
 Future Development:
 Integration of OCR technology for scanned book images to extract searchable text.
 Backend development to manage the digitized library database and implement robust search functionalities.
