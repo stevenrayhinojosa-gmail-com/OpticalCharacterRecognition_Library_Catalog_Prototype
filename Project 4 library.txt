@@ -1,24 +1,21 @@
-#A rich man wants to digitize and search his home library and he would like you to develop an
-application for him. He has fiction books, documents from his work as well as a large collection
-of books about his favourite subject, bird watching.
-One inspiration he has is Google Book Search. That uses scanned images with Optical
-Character Recognition (OCR) to allow books to be searched.
-Develop a simple front end prototype using any web frontend framework that the rich man can
-use to imagine what the app would look like.
-#
-
-library1 = {'fiction':1, 'document':2, 'birds':3}
+library1 = {'fiction': 1, 'document': 2, 'birds': 3}
 for item in library1:
     print(item)
+
 while True:
-    
-    request = int(input("which item would you like, fiction, document, birds? "))
-    
+    request = int(input("Which item would you like to explore? (Enter 1 for fiction, 2 for documents, 3 for bird-watching books): "))
+
     if request == 2:
-        print ("here is your document collection:")
-    
+        print("Here is your document collection:")
+        # Display document collection logic goes here
+
     elif request == 1:
-        print('here is your fiction collection')
-        
+        print('Here is your fiction collection:')
+        # Display fiction collection logic goes here
+
+    elif request == 3:
+        print('Here is your bird-watching collection:')
+        # Display bird-watching collection logic goes here
+
     else:
-        print('here is your birds collection')
+        print('Invalid input. Please enter a valid option.')
